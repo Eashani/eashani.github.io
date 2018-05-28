@@ -96,7 +96,7 @@ var myLineChart = new Chart(ctxD, {
     data: {
         datasets: [
             {
-                data: [300, 310],
+                data: [320, 290],
                 backgroundColor: ["#035a77", "#949FB1"],
                 hoverBackgroundColor: ["#02698c", "#A8B3C5"]
             }
