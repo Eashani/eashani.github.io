@@ -112,6 +112,70 @@ var myLineChart = new Chart(ctxD, {
     data: {
         datasets: [
             {
+                data: [510, 100],
+                backgroundColor: ["#035a77", "#949FB1"],
+                hoverBackgroundColor: ["#02698c", "#A8B3C5"]
+            }
+        ]
+    },
+    options: {
+        responsive: true
+    }
+});
+var ctxD = document.getElementById("doughnutChart9").getContext('2d');
+var myLineChart = new Chart(ctxD, {
+    type: 'doughnut',
+    data: {
+        datasets: [
+            {
+                data: [305,305],
+                backgroundColor: ["#035a77", "#949FB1"],
+                hoverBackgroundColor: ["#02698c", "#A8B3C5"]
+            }
+        ]
+    },
+    options: {
+        responsive: true
+    }
+});
+var ctxD = document.getElementById("doughnutChart10").getContext('2d');
+var myLineChart = new Chart(ctxD, {
+    type: 'doughnut',
+    data: {
+        datasets: [
+            {
+                data: [305,305],
+                backgroundColor: ["#035a77", "#949FB1"],
+                hoverBackgroundColor: ["#02698c", "#A8B3C5"]
+            }
+        ]
+    },
+    options: {
+        responsive: true
+    }
+});
+var ctxD = document.getElementById("doughnutChart11").getContext('2d');
+var myLineChart = new Chart(ctxD, {
+    type: 'doughnut',
+    data: {
+        datasets: [
+            {
+                data: [305,305],
+                backgroundColor: ["#035a77", "#949FB1"],
+                hoverBackgroundColor: ["#02698c", "#A8B3C5"]
+            }
+        ]
+    },
+    options: {
+        responsive: true
+    }
+});
+var ctxD = document.getElementById("doughnutChart12").getContext('2d');
+var myLineChart = new Chart(ctxD, {
+    type: 'doughnut',
+    data: {
+        datasets: [
+            {
                 data: [620],
                 backgroundColor: ["#035a77"],
                 hoverBackgroundColor: ["#02698c"]
